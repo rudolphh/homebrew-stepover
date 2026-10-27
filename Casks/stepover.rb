@@ -1,6 +1,6 @@
 cask "stepover" do
-  version "0.1.0"
-  sha256 "9742160e4402395373ea149d939fbb392878e2919959fc60c0c8b828d7ebe065"
+  version "0.1.1"
+  sha256 "35dd591666399057bad6b9769b789a3a329fa63db6c3df9a95f18b2fee0e0d68"
 
   url "https://github.com/rudolphh/stepover/releases/download/v#{version}/Stepover-#{version}.zip"
   name "Stepover"
