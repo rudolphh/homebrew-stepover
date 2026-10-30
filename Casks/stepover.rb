@@ -1,6 +1,6 @@
 cask "stepover" do
-  version "0.3.0"
-  sha256 "454374d1cc0afc4e2e3b6feeeb3d404588942a05b1ee0292a7162d411945047d"
+  version "0.4.0"
+  sha256 "635be57a81d9262299eed8dd88191eb4caade860d05765e83be4b295a241e36e"
 
   url "https://github.com/rudolphh/stepover/releases/download/v#{version}/Stepover-#{version}.zip"
   name "Stepover"
@@ -29,7 +29,7 @@ cask "stepover" do
   caveats do
     requires_rosetta
     <<~EOS
-      Stepover downloads its Wine runtime (289 MB) the first time it opens.
+      Stepover downloads its Wine runtime (288 MB) the first time it opens.
       Not affiliated with CodeWeavers or Apple. Apple's D3DMetal is included for
       non-commercial use on Apple hardware only.
     EOS
